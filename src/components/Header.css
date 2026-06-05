@@ -1,0 +1,55 @@
+/* Header.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.header {
+  background-color: #2f2f2f;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: 4px solid #cfcfcf;
+}
+
+.nav-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.logo-box {
+  height: 55px;
+  padding: 0 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #2f2f2f;
+  position: relative;
+}
+
+.logo-box.active {
+  background: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: black;
+}
+
+.logo-box.active img {
+  height: 22px;
+}
+
+.outlet-text {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.outlet-text strong {
+  margin-right: 6px;
+  font-size: 18px;
+}
